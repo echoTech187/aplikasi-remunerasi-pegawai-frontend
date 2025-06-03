@@ -64,7 +64,7 @@ export default function CreateJob() {
                             Additional Cost
                         </label>
                         <input
-                            className="appearance-none block w-full w bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                             id="additional_cost" name="additional_cost" type="text" placeholder="Additional Cost" />
                     </div>
                 </div>
