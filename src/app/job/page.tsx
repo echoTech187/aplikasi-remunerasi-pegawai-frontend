@@ -87,15 +87,16 @@ export default function Job() {
             cell: ({ row }) => {
                 return <>
                     <div className="flex gap-2">
-                        <button
-                            className=" border border-gray-600 hover:border-gray-400 focus:shadow-outline focus:outline-none text-gray-600 text-xs hover:text-black font-bold text-center py-2 px-4 rounded cursor-pointer"
-                            type="button" onClick={() => jobView(row.original.slug)}>
-                            <EyeIcon aria-hidden="true" className="size-4" />
-                        </button>
+
                         <button
                             className="border border-yellow-600 hover:border-yellow-400 focus:shadow-outline focus:outline-none text-yellow-600 hover:text-yellow-400 text-xs font-bold text-center py-2 px-4 rounded cursor-pointer"
                             type="button" onClick={() => jobEdit(row.original.slug)}>
                             <PencilIcon aria-hidden="true" className="size-4" />
+                        </button>
+                        <button
+                            className=" border border-gray-600 hover:border-gray-400 focus:shadow-outline focus:outline-none text-gray-600 text-xs hover:text-black font-bold text-center py-2 px-4 rounded cursor-pointer"
+                            type="button" onClick={() => jobView(row.original.slug)}>
+                            <EyeIcon aria-hidden="true" className="size-4" />
                         </button>
                         <button
                             className="border border-red-600 hover:border-red-400 focus:shadow-outline focus:outline-none text-red-600 hover:text-red-400 text-xs font-bold text-center py-2 px-4 rounded cursor-pointer"
